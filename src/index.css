@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 outline-none box-border;
+  }
+  ul,
+  ol {
+    @apply list-none;
+  }
+  a {
+    @apply inline-block no-underline;
+  }
+  img {
+    @apply align-middle;
+  }
+}
