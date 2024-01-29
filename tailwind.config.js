@@ -15,6 +15,7 @@ export default {
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
+        Oxanium: ["Oxanium", "sans-serif"],
       },
     },
   },
