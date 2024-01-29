@@ -10,8 +10,11 @@ export default {
         navbarbgfrom: "#FFFFFF",
         navbarbgvia: " #FFE4D9",
         navbarbgto: "#FFEDC9",
-
+        orangecolor: "#F95C19",
         navshadow: "rgba(0, 0, 0, 0.05);",
+      },
+      fontFamily: {
+        Raleway: ["Raleway", "sans-serif"],
       },
     },
   },
