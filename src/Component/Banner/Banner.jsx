@@ -11,8 +11,8 @@ const Banner = () => {
           <Flex className="items-center justify-between">
             <div className="w-[35%]">
               <div>
-                <h1 className="text-[#261134] text-[46px] font-Raleway font-normal ">
-                  A trusted provider of
+                <h1 className="text-[#261134] text-[45px] font-Raleway font-normal ">
+                  A trusted provider of <br />
                   <span className="font-extrabold">courier services.</span>
                 </h1>
                 <p className="text-[#4D4D4D] font-Raleway font-normal leading-6 text-2xl pr-6 mt-4 mb-14">
