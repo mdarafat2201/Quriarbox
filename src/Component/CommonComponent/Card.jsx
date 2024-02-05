@@ -8,13 +8,17 @@ const Card = () => {
       <div className="mt-10">
         <div className="w-[40%] bg-white p-10">
           <div className="text-center">
-            <span>
-              <IoBagHandleOutline className="inline-block text-5xl text-orangecolor" />
-            </span>
-            <h1>Business Services</h1>
+            <div>
+              <span className="icon_part inline-block text-3xl relative text-orangecolor after:absolute after:content-[''] after:w-10 after:h-10 after:bg-[#FFAF0F] after:top-[-17px] after:left-1/2 after:rounded-full after:-translate-x-1/2">
+                <IoBagHandleOutline className="iconStroke" />
+              </span>
+            </div>
+            <h2 className="mt-7 font-extrabold text-2xl font-Raleway text-[#464558]">
+              Business Services
+            </h2>
           </div>
 
-          <p>
+          <p className="text-2 font-Raleway font-normal">
             We give you complete reliable delivery for your company. We will
             take full responsibility of the deliveries.
           </p>
