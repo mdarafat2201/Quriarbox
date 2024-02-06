@@ -8,7 +8,9 @@ const Service = () => {
     <section className="bg-gradient-to-r from-[#FFF7E7] to-[#FFF1DC] py-28">
       <div className="container">
         <AllTitle heading="SERVICES" subtitle="Our services for you" />
-        <Flex>
+        <Flex className="justify-between">
+          <Card titel="Business Services" />
+          <Card />
           <Card />
         </Flex>
       </div>

@@ -28,4 +28,7 @@
   .iconStroke path {
     stroke-width: 52px;
   }
+  .list__item::marker {
+    color: #ffaf0f;
+  }
 }
