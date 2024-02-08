@@ -1,17 +1,19 @@
 import React from "react";
 import Button from "../CommonComponent/Button";
-import { IoBagHandleOutline } from "react-icons/io5";
+import { GrDocumentMissing } from "react-icons/gr";
 
-const Card = ({ titel }) => {
+const Card = ({ CardClassName, titel, className, icon }) => {
   return (
     <>
       <div className="mt-10">
-        <div className="max-w-[390px] bg-white p-10 rounded-2xl">
+        <div className={CardClassName}>
           <div className="text-center">
-            <div>
-              <span className="icon_part inline-block text-3xl relative text-orangecolor after:absolute after:content-[''] after:w-10 after:h-10 after:bg-[#FFAF0F] after:top-[-17px] after:left-1/2 after:rounded-full after:-translate-x-1/2">
-                <IoBagHandleOutline className="iconStroke" />
-              </span>
+            <div className={className}>
+              {icon ? (
+                icon
+              ) : (
+                <GrDocumentMissing className="inline-block text-4xl" />
+              )}
             </div>
             <h2 className="mt-7 font-extrabold text-2xl font-Raleway text-[#464558]">
               {titel ? titel : "Business Services"}
