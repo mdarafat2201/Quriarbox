@@ -17,6 +17,9 @@ export default {
         Raleway: ["Raleway", "sans-serif"],
         Oxanium: ["Oxanium", "sans-serif"],
       },
+      backgroundImage: {
+        Deleveryigm: "url('./src/assets/Modal video .png')",
+      },
     },
   },
   plugins: [],
